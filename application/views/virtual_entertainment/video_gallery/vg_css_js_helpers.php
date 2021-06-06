@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo base_url();?>application/assets/virtual_entertainment/virtual_entertainment.css">
+<script src="<?php echo base_url();?>application/assets/virtual_entertainment/virtual_entertainment.js"></script>

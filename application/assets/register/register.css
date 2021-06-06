@@ -1,0 +1,43 @@
+.banner{
+    background: url('../shared/img/loginbg.png') no-repeat top left;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;    
+    align-items: center;
+    }
+
+.banner-content{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center; */
+}
+.banner-content .card .card-body{ display: flex; justify-content: center;align-items: center; }
+.banner-content .card{
+    width: 35em;
+    min-height: 32em;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+.banner-content .card .card-body .icon-align{
+    text-align: center;
+}
+/* .banner-content .card .card-body{  margin: auto; } */
+.btn-sign-up{ background-color: #E40521; color: #fff; }
+.banner-content .card .logo{ width: 21em; margin: auto; padding: 0px 20px 20px 20px; }
+.social-icon{ width: 1em; margin: 5px; cursor: pointer; }
+.form-group p{ font-size: 12px; color: red; margin: 0; }
+
+
+@media (max-width: 599px){  
+  .banner-content .card{width: 300px;}
+  .banner-content .card .logo{max-width: 100%;height: auto;}
+}

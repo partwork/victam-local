@@ -1,0 +1,115 @@
+/* top carousel  */
+.carousel-img { width: 100%; height: 100%;}
+.carousel-indicators{ bottom: 50px; }
+.carousel-indicators li{
+    width: 10px !important;
+    border-radius: 60% !important;
+    height: 10px !important;
+    background-color: red !important;
+}
+.carousel-caption{
+    bottom: 0px;
+}
+.carousel-caption-copy{
+    padding-bottom: 70px;
+}
+.carousel-caption-company-logo{
+    padding-bottom: 100px;
+}
+.carousel-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgba( 255,255, 255, 0.9 );
+}
+.carousel-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.custome-mg-img{
+	min-height:25em !important;
+}
+
+/*  */
+
+.market-info-img{
+    /* height: 15em; */
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 20px;
+    transition: .5s;
+}
+.market-info-img:hover {
+    transform: scale(1.05);
+}
+.market-details-row{
+    padding-top: 60px;
+}
+.magazine-img{
+    height: 350px;
+}
+.carousel-caption-magazine{
+    bottom: 60px !important;
+}
+.m-title::before{
+    width: 50px;
+    height: 4px;
+    border-radius: 50px;
+    bottom: 14.6em;
+    left: 42%;
+    content: '';
+    position: absolute;
+    background-color: rgba(228, 5, 33, 0.6);
+  }
+  .f-14{
+      font-size: 14px;
+  }
+  .info-heading{
+      color: rgba(0, 101, 167, 1);
+  }
+.subscribe-now{ color:rgba(228, 5, 33, 0.6) ; font-size: 0.875rem; }
+
+/* OWL Carousel  */
+.owl-carousel-logo .owl-item{padding: 3rem;}
+.owl-carousel-logo button.owl-dot{
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    background: rgba(66, 66, 66, 50%);
+    border: none;
+    padding: 6px !important;
+    margin: 0 5px;
+}
+.owl-carousel-logo button.owl-dot.active{background: #E40521;}
+.owl-dots{text-align: center;}
+
+
+/* Magazines */
+.magazine-section{
+    background: #424242;
+    padding: 4rem 0;
+}
+.owl-carousel-mag .owl-item{
+    padding: 1rem .8rem;
+}
+.owl-carousel-mag .owl-next{
+    position: absolute;
+    right: -80px;
+    color: #fff !important;
+    top: 0;
+    font-size: 6rem !important;
+    height: 100%;
+}
+.owl-carousel-mag .owl-prev{
+    position: absolute;
+    left: -80px;
+    color: #fff !important;
+    top: 0;
+    font-size: 6rem !important;
+    height: 100%;
+}
+.owl-carousel-mag .owl-nav [class*='owl-']:hover{
+    background: transparent !important;
+}
+.owl-carousel-mag .owl-nav [class*='owl-']:focus{
+    outline: none;
+}

@@ -1,0 +1,12 @@
+.specific-market, .buyer-type{color: rgba(0, 101, 167, 1);}
+.media-brochure{color: rgba(0, 101, 167, 1);margin-top: 1.5rem;font-size: .875rem;}
+.text-theme-red{color: rgba(228, 5, 33, 1);font-weight: 400;}
+.sales-contact{
+    margin: auto;
+    width: 48%;
+    border: 3px solid rgba(112, 112, 112, 0.5);
+    /* padding: 20px; */
+    border-radius: 4px;
+}
+.sales-contact h4{color: #424242;border-bottom: 1px solid rgba(112, 112, 112, 15%);padding: 15px;}
+.sales-contact h6{color: #424242;}

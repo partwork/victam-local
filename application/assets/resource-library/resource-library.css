@@ -1,0 +1,267 @@
+/* Banner Css */
+.carousel-img {
+    width: 101%;
+    height: 100%;
+    margin-left: -9px;
+    margin-top: -7px;
+}
+.carousel-indicators{ bottom: 50px; }
+#companyLogoSlider .carousel-indicators li{background-color: #424244;}
+.carousel-indicators li{
+    width: 10px !important;
+    border-radius: 60% !important;
+    height: 10px !important;
+}
+.carousel-indicators .active {
+    background-color: #E40521 !important;
+}
+.carousel-caption{
+    bottom: 0px;
+}
+/* .carousel-caption-copy{
+    padding-bottom: 50px;
+} */
+.carousel-caption{
+    bottom: 0px;
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.carousel-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgba( 255,255, 255, 1 );
+}
+.carousel-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-sub-menu-img{transition: .3s;}
+.nav-sub-menu-img:hover{transform: scale(1.05);}
+
+.right-align-menu-banners{
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.left-align-menu-banners{
+    display: grid;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Research and Innovation */
+.scroll-section{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.filters-wrap{
+    height: 100%;
+    background: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,16%);
+}
+.filter-btn-wrap{
+    height: 50px;
+    border-bottom: 1px solid rgba(112,112,112,10%);
+}
+.filter-btn-wrap span{line-height: 2;}
+.search-filter-wrap input{
+    border: 2px solid rgba(112,112,112,25%);
+    border-radius: 8px;
+    padding-right: 1.5rem;
+}
+.search-filter-wrap i{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #0065A7;
+    cursor: pointer;
+    padding: 9px;
+}
+.search-filter-wrap i:hover{
+    color: rgba(0, 101, 167, 70%);
+    transform: scale(1.1);
+}
+.form-group .dropdown {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    /* height: calc(1.5em + .75rem + 15px); */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid rgba(112,112,112,25%);
+    border-radius: 8px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.drp-arrow {
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+.dropdown-toggle::after{display: none;}
+.btn.focus, .btn:focus{box-shadow: none;}
+.form-group .dropdown-menu.show{
+    /* transform: translate3d(0px, 34px, 0px) !important; */
+    margin-left: -15px;
+    width: 100%;
+}
+.dropdown.show .dropdown-item{
+    font-size: 0.875rem;
+    color: #424244;
+    font-weight: 400;
+  }
+.alphabet-filter{display: grid;}
+.alphabet-filter .box {
+    float: left;
+    width: max-content;
+    border: 1px solid #0065A7;
+    background: rgba(0,101,167,5%);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #0065A7;
+    padding: 5px 11px;
+  }
+  
+.alphabet-filter.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.alphabets-box-wrap span{width: 30px !important; padding: 5px !important;}
+.alphabet-filter span:hover{
+    background: #0065A7;
+    color: #fff;
+    cursor: pointer;
+}
+.comp-card-wrap{
+    /* text-align: center; */
+    background: #fff;
+    /* box-shadow: 0px 0px 6px 0 rgba(0,0,0,16%); */
+    border-bottom: 1px solid rgba(0,0,0,10%) !important;
+    border-top: 1px solid rgba(0,0,0,10%) !important;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    height: 56px;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    transition: .3s;
+}
+.comp-card-wrap h5.float-left{
+    /* font-weight: 400; */
+    /* text-decoration: underline !important; */
+    font-size: 18px !important;    
+}
+.comp-card-wrap span.float-right{
+    color: rgba(0,0,0,30%);
+    font-size: 14px;
+}
+.comp-card-wrap:hover{background-color: #ecf8ff!important;cursor: pointer;color: #0065A7 !important;border: 0px solid transparent !important;}
+.comp-card-wrap:hover span.float-right{color: #0065A7 !important;}
+.comp-card-wrap img, .comp-card-wrap button{width: 100%;}
+.comp-card-wrap button{border-top-left-radius: 0;border-top-right-radius: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+
+/* Add Company to the Guide */
+.social-icons-wrap{
+    position: absolute;
+    right: 20px;
+}
+.social-icons-wrap li i{color: #0065A7 !important;}
+.company-sub-text-heading{
+    line-height: 2;
+    font-weight: 300;
+    color: #424242;
+    font-size: 0.875rem;
+}
+.company-desc{width: 33.333333%;}
+
+
+/* Modal Css */
+.close{
+    width: max-content;
+    z-index: 999;
+    right: 15px;
+    position: absolute;
+    top: 8px;
+    font-size: 26px;
+  }
+  .close:focus{outline: none;}
+
+  /* Form */
+  .form-control-custom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .innovation-contact-form-wrap{
+    padding: 10px 15px;
+  }
+  .modal-title-innovation{
+      line-height: 1.5;
+  }
+  #receiveMoreInfo .modal-content{
+      padding: 15px;
+  }
+.note-wrap li a{
+    color: #424242;
+    text-decoration: none;
+}
+  /* Newsletter */
+.news-letter-wrap{
+    list-style: none;
+    padding: 0;
+}
+.news-letter-wrap li{padding-left: 1rem;font-size: .875rem;margin-bottom: .4rem;}
+.news-letter-wrap li:before{
+    content: "\f105"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    margin-left: -1em; /* same as padding-left set on li */
+}
+
+/* Form Css */
+.write-for-us-form{
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,8%);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+textarea.form-control{height: auto !important;}
+
+/*  */
+.owl-carousel .owl-item{padding: 3rem;}
+.owl-carousel button.owl-dot{
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    background: rgba(66, 66, 66, 50%);
+    border: none;
+    padding: 6px !important;
+    margin: 0 5px;
+}
+.owl-carousel button.owl-dot.active{background: #E40521;}
+.owl-dots{text-align: center;}
+.data-not-found{width: 100%;}

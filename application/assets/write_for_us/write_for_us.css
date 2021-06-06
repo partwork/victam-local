@@ -1,0 +1,37 @@
+
+.text-theme-red{color: rgba(228, 5, 33, 1);}
+.write-for-us-form{
+    margin: auto;
+    width: 70%;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,8%);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+/* Dropdown */
+.drp-form-group .dropdown, .write-for-us-form .form-control{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    /* height: calc(1.5em + .75rem + 15px); */
+    padding: .375rem .75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #495057; */
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.drp-form-group .dropdown-menu.show{
+    width: 100%;
+    margin-left: -14px;
+}
+textarea.form-control{height: auto !important;}
+
+#recaptcha .error{
+    position: absolute !important;
+    top: 80px !important;
+}

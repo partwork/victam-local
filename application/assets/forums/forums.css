@@ -1,0 +1,159 @@
+/* Banner Css */
+.carousel-img { width: 100%; height: 100%;}
+.carousel-indicators{ bottom: 50px; }
+#companyLogoSlider .carousel-indicators li{background-color: #424244;}
+.carousel-indicators li{
+    width: 10px !important;
+    border-radius: 60% !important;
+    height: 10px !important;
+}
+.carousel-indicators .active {
+    background-color: #E40521 !important;
+}
+.carousel-caption{
+    bottom: 0px;
+}
+.carousel-caption{
+    bottom: 0px;
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.carousel-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgba( 255,255, 255, 1 );
+}
+.carousel-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ld-img{width: 24px !important;}
+/*  */
+.select-group{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.dropdown-menu-width{ background-color: #fff; width: 100%; }
+.dropdown-menu-width .dropdown-item:hover{ background-color: rgba(0, 101, 167, 0.1);}
+.drop-down-arrow{
+    position: absolute;
+    right: 10px;
+    padding: 0;
+    width: 13px;
+}
+.news-search-icon{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.center-align-dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.accordian-title{
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.selected-option{
+    color: rgb(0 0 0 / 30%);
+}
+/*  */
+ul  li {
+    display: inline-block;
+}
+.share-section{
+    border-top: 1px solid rgba(112, 112, 112, 10%);
+    border-bottom: 1px solid rgba(112, 112, 112, 10%);
+    padding: 15px 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn-send{height: 35px;}
+.vertical-align{
+    width: max-content;
+    /* height: 50%; */
+    /* margin: auto; */
+}
+.like-wrap, .dislike-wrap{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.forums-card{
+    box-shadow: 0 0px 10px 0 rgba(226, 220, 220,60%);
+    margin: 0px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 0;
+}
+.forums-card:hover{
+    box-shadow: 0 7px 30px 0 rgba(226, 220, 220,60%);
+}
+.forums-card .desc-text{line-height: 1.8;}
+.add-forum-form {
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,8%);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.comment-icon, .thumb-icon{
+    cursor: pointer;
+}
+.comment-card{
+    border-bottom: 1px solid rgba(112, 112, 112, 10%);
+    padding-bottom: 10px;
+}
+.comments-modal-body{
+    max-height: 30em;
+    overflow: scroll;
+}
+.form-control-custom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.name-image-comment-wrap{
+    display: flex;
+    align-items: flex-start;
+}
+/* .name-comment-wrap{} */
+
+.dislike_btn, .like_btn{
+    width: 25px;
+    height: 25px;
+}

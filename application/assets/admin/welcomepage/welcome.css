@@ -1,0 +1,24 @@
+.welcome-card-wrapper{
+    background: #fff;
+    margin-top: 1rem;
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+.welcome-background-wrapper{
+    background-repeat: no-repeat !important;
+    background-size: 70% !important;
+    background-position: right !important;
+}
+.welcome-content-wrap{
+    padding: 4rem 2rem;
+    width: 35vw;
+}
+.tips-title{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #7C8A9C;
+}
+.welcome-tips-wrapper {padding-left: 1rem;}
+.welcome-tips-wrapper li{margin: .5rem 0;}

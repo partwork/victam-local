@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo base_url();?>application/assets/manage_subscription/subscription.css">
+<script src="<?php echo base_url();?>application/assets/manage_subscription/subscription.js"></script>

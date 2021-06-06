@@ -1,0 +1,10 @@
+React navigation
+Native Base
+Redux
+
+forum_like_count
+forum_dis_count
+
+total_like
+total_dis_like
+
