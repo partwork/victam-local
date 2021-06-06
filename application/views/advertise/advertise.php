@@ -8,7 +8,7 @@
         <section class="pb-4 pl-3 pr-3">
             <div class="row">
                 <div class="col-12 col-sm-12 col-lg-9 col-md-9">
-                    <div class="pl-5">
+                    <div class="advertise">
                         <h4 class="pt-4">ADVERTISE WITH US</h4>
                         <p class="sub-description-light-400">The VICTAM digital portal is the 24/7 start page for all people working or active in the animal feed and grain processing industries. Users can find the latest and
                             high-quality content or technology and can participate at forums, find jobs or participate in the dynamic online marketplace. The portal is an interactive page

@@ -112,7 +112,7 @@
                             </div>
 
                             <div class="text-center pt-3 mt-4">
-                                <button type="button" class="btn back-btn pl-5 pr-5 mr-3">Back</button>
+                                <button type="button" class="btn back-btn pl-5 pr-5 mr-3 rback">Back</button>
                                 <button type="button" id="fieldOfInterestSubmit" class="btn btn-blue next-btn pl-5 pr-5">Next</button>
                                 <!-- <button type="submit" id="submit" name="action" value="profileSetUp" class="btn btn-blue next-btn">Submit</button> -->
                             </div>
@@ -158,10 +158,10 @@
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                     <div class="form-group row">
                                         <label for="usr" class="col-sm-12">Mobile Phone</label>
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-3 rescountry">
                                             <input type="text" class="form-control" name="country_code" id="country_code" value="" readonly>
                                         </div>
-                                        <div class="col-sm-9 pl-0">  
+                                        <div class="col-sm-9 pl-0 resmobile">  
                                             <input type="text" class="form-control contact" id="pContact" name="pContact" placeholder="Enter Mobile Phone">
                                         </div>
                                     </div>
@@ -181,8 +181,8 @@
                             
                         </div>
                         <div class="text-center pt-4">
-                            <button type="button" class="btn back-btn pl-5 pr-5 mr-3">Back</button>
-                            <button type="button" id="personalInformationSubmit" class="btn btn-blue pl-5 pr-5">Next</button>
+                            <button type="button" class="btn back-btn pl-5 pr-5 mr-3 rback">Back</button>
+                            <button type="button" id="personalInformationSubmit" class="btn next-btn btn-blue pl-5 pr-5">Next</button>
                         </div>
                     </div>
                     <div class="form-4 form-wrap">
@@ -199,7 +199,7 @@
                                 </div>
 
                                 <div class="text-center pt-5 mt-4">
-                                    <button type="button" class="btn back-btn pl-5 pr-5 mr-3">Back</button>
+                                    <button type="button" class="btn back-btn pl-5 pr-5 mr-3 rback">Back</button>
                                     <button type="button" id="companyNameSubmit" class="btn btn-blue next-btn company-next pl-5 pr-5">Next</button>
                                     <button type="submit" id="companySubmit" name="action" value="profileSetUp" class="btn btn-blue next-btn btn-width display-none">Submit</button>
                                 </div>
@@ -257,7 +257,7 @@
                                 </div>
 
                                 <div class="text-center pt-5 mt-4">
-                                    <button type="button" class="btn company-previous pl-5 pr-5 mr-3">Back</button>
+                                    <button type="button" class="btn company-previous pl-5 pr-5 mr-3 rback ">Back</button>
                                     <button type="button" id="industoryBelogSubmit" class="btn btn-blue next-btn industry-next pl-5 pr-5">Next</button>
                                 </div>
 
@@ -282,7 +282,7 @@
                                 </div>
 
                                 <div class="text-center pt-5">
-                                    <button type="button" class="btn company-previous pl-5 pr-5 mr-3">Back</button>
+                                    <button type="button" class="btn company-previous pl-5 pr-5 mr-3 rback">Back</button>
                                     <button type="button" id="answerSubmit" class="btn btn-blue next-btn company-next pl-5 pr-5">Next</button>
                                 </div>
 
@@ -342,7 +342,7 @@
                                 </div>
                                 <p class="company-address-error text-danger"></p>
                                 <div class="text-center pt-5">
-                                    <button type="button" class="btn industry-previous btn-width mr-3">Back</button>
+                                    <button type="button" class="btn industry-previous btn-width mr-3 rback">Back</button>
                                     <!-- <button type="button" id="websiteNameSubmit" class="btn btn-blue pl-5 pr-5">Submit</button> -->
                                     <!-- <a href="<?php echo base_url(); ?>pricing" class="btn btn-blue pl-5 pr-5">Submit</a> -->
                                     <input type="hidden" name="user_iscompany" id="user_iscompany" value="">
@@ -406,8 +406,8 @@
                             <img src="<?php echo base_url(); ?>application/assets/shared/img/logo.png" width="150px">
                             <p class="pt-3 modal-center-text">Would you like to add your company details?</p>
                             <div class="text-center">
-                                <button type="button" id="companyDetailsTab" class="btn add-company-details next-btn b-none" data-dismiss="modal">Yes</button>
-                                <span class="skip-company-details" id="skipCompanyDetails">Skip</span>
+                                <button type="button" id="companyDetailsTab" class="btn add-company-details next-btn b-none yesbtn yeslarge" data-dismiss="modal">Yes</button>
+                                <span class="skip-company-details skipbtn " id="skipCompanyDetails">Skip</span>
                             </div>
                         </div>
                     </div>

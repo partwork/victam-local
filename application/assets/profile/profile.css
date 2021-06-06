@@ -296,6 +296,7 @@ li.last-step:before{
     margin-right: 0;
     width: 100%;
   }
+ 
  }
  @media (min-width:600px) and (max-width:767px ){ 
  
@@ -326,3 +327,34 @@ li.last-step:before{
     padding: 1rem 1rem;
   }
  }
+ @media  (max-width:767px )
+ {
+  .form-step-wrap { flex-flow: column;padding:0px}
+  .form-step-wrap li { padding: 10px 0px;width: 100%;text-align: center;}
+   .form-step-wrap li:before{bottom:0px;left:0;width: 100%;}
+   .form-step-wrap li.active a:before{bottom:-33px;width: 22px;height: 22px;}
+   .all-form-wrap{width: 100%;margin-top: 20px;padding: 25px;}
+   .rback ,.next-btn,.yesbtn,.skipbtn{width: 100%;}
+   .rback{margin-bottom: 10px;}
+   .resmobile{padding-left: 1rem;margin-top: 1rem;}
+   .yesbtn{margin: 0;margin-bottom: 15px;}
+   .skipbtn{display: block;width: 100%;margin: 0;}
+   .company-forms {padding: 0!important;}
+   .progress{width: 100%;}
+ }
+ @media (min-width:768px) and (max-width:1024px ){ 
+   .form-step-wrap { flex-flow: column;padding:0px}
+   .form-step-wrap li { padding: 10px 0px;width: 100%;text-align: center;}
+   .form-step-wrap li:before{bottom:0px;left:0;width: 100%;}
+   .form-step-wrap li.active a:before{bottom:-33px;width: 22px;height: 22px;}
+   .all-form-wrap{width: 100%;margin-top: 20px;padding: 25px;}
+   .rback,.next-btn,.yesbtn,.skipbtn{width: 48%;}
+   .rescountry{padding-right: 0 !important;}
+   .resmobile{padding-left: 1rem!important;} */
+   .yesbtn{margin: 0;margin-bottom: 15px;}
+   .skipbtn{display: inline-block;width: 40%;margin: 0;}
+   .company-forms {padding: 0!important;}
+   .progress{width: 100%;}
+   .yeslarge{width: 40%;}
+ }
+ 
