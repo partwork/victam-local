@@ -47,7 +47,7 @@ $(document).ready(function () {
             cName: "required",
             title: {
                 required: true,
-                maxlength: 50
+                //maxlength: 50
             },
             fromDate: "required",
             toDate: "required",

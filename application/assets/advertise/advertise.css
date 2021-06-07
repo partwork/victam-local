@@ -10,9 +10,7 @@
 }
 .sales-contact h4{color: #424242;border-bottom: 1px solid rgba(112, 112, 112, 15%);padding: 15px;}
 .sales-contact h6{color: #424242;}
-.advertise{padding-left: 20px;}
 
-@media (max-width: 800px){  
-    .advertise{padding-left: 8px;} 
-    .sales-contact{width: 96%;}
-  }
+@media only screen and (max-width: 767px) {
+    .pl-5, .px-5 {padding: 10px!important;}    
+    }

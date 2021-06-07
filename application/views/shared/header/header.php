@@ -4,13 +4,33 @@
       $matchmaking = (isset($_SESSION['matchmaking_plan'])) ? $_SESSION['matchmaking_plan'] : '';
 ?>
 
-<nav class="navbar navbar-expand-lg p-0">
+<script type="text/javascript">
+ $(document).ready(function() {
+            
+                $(".copy1").clone().appendTo(".nav1");
+                $(".copy2").clone().appendTo(".nav2");
+            
+        });
+    </script>
+<nav class="navbar navbar-expand-lg p-0 navbar navbar-light light-blue lighten-4">
     <div class="container-fluid p-0">
         <div class="row w-100">
             <div class="col-sm-3 center-align-lable">
-                <a class="navbar-brand " href="javascript:void(0)"><img src="<?php echo base_url(); ?>application/assets/shared/img/logo.png" alt="Victam logo" height="80" width="220"></a>
+                <a class="navbar-brand " href="javascript:void(0)"><img src="<?php echo base_url(); ?>application/assets/shared/img/logo.png" alt="Victam logo" height="125" width="270"></a>
             </div>
-            <div class="col-sm-9 p-0">
+             <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+
+        <div class="mobPanel" id="navbarSupportedContent1">
+<div class="nav1"></div>
+<div class="nav2"></div>
+
+        </div>
+
+            <div class="col-sm-9 p-0 copy1">
                 <div class="row">
                     <div class="col-sm-12"> 
                         <ul class="list-inline float-right pt-2 ml-auto mb-1">
@@ -36,7 +56,7 @@
                                 <a class="nav-link nav-link-item" href="https://victam.com/contact-forms" target="_blank">Contact</a>
                             </li>
                             <?php if ($this->session->userdata('userId')) : ?>
-                                <li class="nav-item">
+                                <li class="nav-item userLi">
                                     <div class="dropdown pr-4">
                                         <button type="button" class="btn dropdown-toggle p-0" data-toggle="dropdown">
                                             <img src="<?php echo base_url(); ?>application/assets/shared/img/icon/profile.png" alt="" height="35" width="35">
@@ -86,7 +106,7 @@
 
 <!-- Navigation Bar ------------------------------------------ -->
 
-<nav class="navbar navbar-expand-lg main-navbar">
+<nav class="navbar navbar-expand-lg main-navbar copy2">
     <ul class="navbar-nav nav-justified-items w-100 nav-ui">
         <li class="nav-item "><a class="nav-link nav-link-item-1 p-0" href="<?php echo base_url(); ?>">
                 <span <?php if ($activePage == "home") : ?>class="active-main" <?php endif; ?>>Home</span> </a>

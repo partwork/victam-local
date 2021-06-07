@@ -18,7 +18,7 @@
 
                 <div class="pl-3 pt-3">
                     <h4 class="text-title-small mt-3 mb-3">ARTICLES</h4>
-
+                    <p>Do you want your article to be featured in this website*? Write for us!</p>
                     <div class="row loader_div" id="loader_div">
                         <div class="col-sm-4">
                             <div class="form-group pos-rel m-0">
@@ -26,7 +26,7 @@
                                 <i class="fa fa-search news-search-icon mr_inf_sarch_btn" data-page="article"></i>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 col-xs-12">
                             <div class="dropdowns center-align-dropdown pos-rel row">
                                 <label class="text-right col-sm-3 mb-0 pr-0">Publisher</label>
                                 <div class="col-sm-9">
@@ -48,11 +48,11 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="dropdowns center-align-dropdown pos-rel row">
-                                <label class="text-right col-sm-4 mb-0 pr-0">Industry sector</label>
+                                <label class="text-right col-sm-4 mb-0 pr-0">Industry</label>
                                 <div class="col-sm-8">
                                     <select class="form-control function-drp-list" id="industry_drop" required>
                                         <!-- <option value="" disabled selected hidden class="placeholder-text">Select</option> -->
-                                        <option value="">All Sectors</option>
+                                        <option value="">All Industry</option>
                                         <?php
                                         // if (isset($sector_list) && !empty($sector_list)) :
                                         //     foreach ($sector_list as $key => $value) :

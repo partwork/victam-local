@@ -35,3 +35,9 @@ textarea.form-control{height: auto !important;}
     position: absolute !important;
     top: 80px !important;
 }
+
+@media only screen and (max-width: 767px) {
+    .write-for-us-form {width:100%}
+    .pl-5, .px-5 {padding: 0!important;}
+    
+    }
